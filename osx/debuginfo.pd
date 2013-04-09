@@ -1,0 +1,35 @@
+#N canvas 1204 67 571 579 10;
+#X floatatom 42 66 5 0 0 0 - - -;
+#X obj 42 102 s tID;
+#X msg 42 82 print_instance \$1 0 4;
+#X text 86 38 Print a range of attributes from a particular instance.
+Specify the instance index \, lower attribute \, and upper attribute
+that you wish to print.;
+#X msg 40 173 max_values;
+#X obj 40 204 s tID;
+#X msg 126 173 min_values;
+#X msg 40 253 print;
+#X obj 40 275 s tID;
+#X text 87 251 Print information about timbreID's internal memory and
+settings to Pd's post window.;
+#X text 39 135 Spit out a list of the max or min values for all attributes
+in your feature database. This arrives at the fifth outlet.;
+#X obj 40 345 s tID;
+#X msg 40 323 num_instances;
+#X text 138 323 Find out how many instances are in the database. The
+answer arrives at the fifth outlet.;
+#X obj 75 435 r tID;
+#X obj 75 461 t a a a;
+#X obj 54 520 s tID_b;
+#X obj 103 520 s tID_s;
+#X obj 151 520 s tID_h;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 4 0 5 0;
+#X connect 6 0 5 0;
+#X connect 7 0 8 0;
+#X connect 12 0 11 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 15 1 17 0;
+#X connect 15 2 18 0;
