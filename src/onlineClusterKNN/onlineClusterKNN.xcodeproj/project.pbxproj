@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF882B72159082860014C5D0 /* onlineClusterKNN.c in Sources */ = {isa = PBXBuildFile; fileRef = DF882B71159082860014C5D0 /* onlineClusterKNN.c */; };
+		DF882B74159083540014C5D0 /* m_pd.h in Headers */ = {isa = PBXBuildFile; fileRef = DF882B73159083540014C5D0 /* m_pd.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF882B6A159081AD0014C5D0 /* onlineClusterKNN.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = onlineClusterKNN.pd_darwin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF882B71159082860014C5D0 /* onlineClusterKNN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = onlineClusterKNN.c; sourceTree = "<group>"; };
+		DF882B73159083540014C5D0 /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = m_pd.h; path = "../../maxpd/Pd-0.42.5-extended/pd/src/m_pd.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF882B67159081AD0014C5D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF882B5F159081AD0014C5D0 = {
+			isa = PBXGroup;
+			children = (
+				DF882B73159083540014C5D0 /* m_pd.h */,
+				DF882B71159082860014C5D0 /* onlineClusterKNN.c */,
+				DF882B6B159081AD0014C5D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF882B6B159081AD0014C5D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF882B6A159081AD0014C5D0 /* onlineClusterKNN.pd_darwin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF882B68159081AD0014C5D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF882B74159083540014C5D0 /* m_pd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF882B69159081AD0014C5D0 /* onlineClusterKNN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF882B6E159081AD0014C5D0 /* Build configuration list for PBXNativeTarget "onlineClusterKNN" */;
+			buildPhases = (
+				DF882B66159081AD0014C5D0 /* Sources */,
+				DF882B67159081AD0014C5D0 /* Frameworks */,
+				DF882B68159081AD0014C5D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onlineClusterKNN;
+			productName = onlineClusterKNN;
+			productReference = DF882B6A159081AD0014C5D0 /* onlineClusterKNN.pd_darwin */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF882B61159081AD0014C5D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DF882B64159081AD0014C5D0 /* Build configuration list for PBXProject "onlineClusterKNN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF882B5F159081AD0014C5D0;
+			productRefGroup = DF882B6B159081AD0014C5D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF882B69159081AD0014C5D0 /* onlineClusterKNN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF882B66159081AD0014C5D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF882B72159082860014C5D0 /* onlineClusterKNN.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF882B6C159081AD0014C5D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		DF882B6D159081AD0014C5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		DF882B6F159081AD0014C5D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF882B70159081AD0014C5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF882B64159081AD0014C5D0 /* Build configuration list for PBXProject "onlineClusterKNN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF882B6C159081AD0014C5D0 /* Debug */,
+				DF882B6D159081AD0014C5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF882B6E159081AD0014C5D0 /* Build configuration list for PBXNativeTarget "onlineClusterKNN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF882B6F159081AD0014C5D0 /* Debug */,
+				DF882B70159081AD0014C5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF882B61159081AD0014C5D0 /* Project object */;
+}
