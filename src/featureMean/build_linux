@@ -1,0 +1,8 @@
+#!/bin/sh
+
+gcc -g -Wall -W -fPIC -O3 -funroll-loops -fomit-frame-pointer -c featureMean.c
+gcc -g -Wl,--export-dynamic  -shared -fPIC featureMean.o -o featureMean.pd_linux
+
+
+
+

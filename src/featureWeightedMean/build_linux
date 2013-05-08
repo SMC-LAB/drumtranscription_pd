@@ -1,0 +1,8 @@
+#!/bin/sh
+
+gcc -g -Wall -W -fPIC -O3 -funroll-loops -fomit-frame-pointer -c featureWeightedMean.c
+gcc -g -Wl,--export-dynamic  -shared -fPIC featureWeightedMean.o -o featureWeightedMean.pd_linux
+
+
+
+
