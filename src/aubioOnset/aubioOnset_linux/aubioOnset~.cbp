@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aubioOnset~" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aubioOnset~.so" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="../aubioFullOSXUni/include/aubio" />
+					<Add directory="../aubioFullOSXUni/include/fft" />
+					<Add directory="../aubioFullOSXUni/include/libsamplerate" />
+					<Add directory="../aubioFullOSXUni/include/libsndfile" />
+					<Add directory="../aubioFullOSXUni/lib" />
+				</Compiler>
+				<Linker>
+					<Add library="libs/libaubio.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aubioOnset~.so" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../aubioFullOSXUni/include/aubio/aubio.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/aubio_priv.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/beattracking.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/biquad.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/fft.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/filter.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/hist.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/mathutils.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/onset.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/onsetdetection.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/peakpick.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/phasevoc.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/pitchdetection.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/pitchfcomb.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/pitchmcomb.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/pitchschmitt.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/pitchyin.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/pitchyinfft.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/resample.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/sample.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/scale.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/tempo.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/tss.h" />
+		<Unit filename="../aubioFullOSXUni/include/aubio/types.h" />
+		<Unit filename="../aubioFullOSXUni/include/fft/fftw3.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/common.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/config.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/fastest_coeffs.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/float_cast.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/high_qual_coeffs.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/mid_qual_coeffs.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsamplerate/samplerate.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsndfile/sndfile.h" />
+		<Unit filename="../aubioFullOSXUni/include/libsndfile/sndfile.hh" />
+		<Unit filename="../aubioOnset~.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion>
+				<search_path add="../aubioFullOSXUni/include/aubio" />
+				<search_path add="../aubioFullOSXUni/include/fft" />
+				<search_path add="../aubioFullOSXUni/include/libsamplerate" />
+				<search_path add="../aubioFullOSXUni/include/libsndfile" />
+				<search_path add="../aubioFullOSXUni/lib" />
+			</code_completion>
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

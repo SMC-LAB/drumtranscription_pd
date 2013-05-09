@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EC90466173943F0006E27A6 /* m_pd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC90465173943F0006E27A6 /* m_pd.h */; };
+		8EC904DD17394421006E27A6 /* aubio.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904B617394421006E27A6 /* aubio.h */; };
+		8EC904DE17394421006E27A6 /* aubio_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904B717394421006E27A6 /* aubio_priv.h */; };
+		8EC904DF17394421006E27A6 /* beattracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904B817394421006E27A6 /* beattracking.h */; };
+		8EC904E017394421006E27A6 /* biquad.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904B917394421006E27A6 /* biquad.h */; };
+		8EC904E117394421006E27A6 /* fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904BA17394421006E27A6 /* fft.h */; };
+		8EC904E217394421006E27A6 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904BB17394421006E27A6 /* filter.h */; };
+		8EC904E317394421006E27A6 /* hist.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904BC17394421006E27A6 /* hist.h */; };
+		8EC904E417394421006E27A6 /* mathutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904BD17394421006E27A6 /* mathutils.h */; };
+		8EC904E517394421006E27A6 /* onset.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904BE17394421006E27A6 /* onset.h */; };
+		8EC904E617394421006E27A6 /* onsetdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904BF17394421006E27A6 /* onsetdetection.h */; };
+		8EC904E717394421006E27A6 /* peakpick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C017394421006E27A6 /* peakpick.h */; };
+		8EC904E817394421006E27A6 /* phasevoc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C117394421006E27A6 /* phasevoc.h */; };
+		8EC904E917394421006E27A6 /* pitchdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C217394421006E27A6 /* pitchdetection.h */; };
+		8EC904EA17394421006E27A6 /* pitchfcomb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C317394421006E27A6 /* pitchfcomb.h */; };
+		8EC904EB17394421006E27A6 /* pitchmcomb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C417394421006E27A6 /* pitchmcomb.h */; };
+		8EC904EC17394421006E27A6 /* pitchschmitt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C517394421006E27A6 /* pitchschmitt.h */; };
+		8EC904ED17394421006E27A6 /* pitchyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C617394421006E27A6 /* pitchyin.h */; };
+		8EC904EE17394421006E27A6 /* pitchyinfft.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C717394421006E27A6 /* pitchyinfft.h */; };
+		8EC904EF17394421006E27A6 /* resample.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C817394421006E27A6 /* resample.h */; };
+		8EC904F017394421006E27A6 /* sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904C917394421006E27A6 /* sample.h */; };
+		8EC904F117394421006E27A6 /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904CA17394421006E27A6 /* scale.h */; };
+		8EC904F217394421006E27A6 /* tempo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904CB17394421006E27A6 /* tempo.h */; };
+		8EC904F317394421006E27A6 /* tss.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904CC17394421006E27A6 /* tss.h */; };
+		8EC904F417394421006E27A6 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904CD17394421006E27A6 /* types.h */; };
+		8EC904F517394421006E27A6 /* fftw3.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904CF17394421006E27A6 /* fftw3.h */; };
+		8EC904F617394421006E27A6 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D117394421006E27A6 /* common.h */; };
+		8EC904F717394421006E27A6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D217394421006E27A6 /* config.h */; };
+		8EC904F817394421006E27A6 /* fastest_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D317394421006E27A6 /* fastest_coeffs.h */; };
+		8EC904F917394421006E27A6 /* float_cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D417394421006E27A6 /* float_cast.h */; };
+		8EC904FA17394421006E27A6 /* high_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D517394421006E27A6 /* high_qual_coeffs.h */; };
+		8EC904FB17394421006E27A6 /* mid_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D617394421006E27A6 /* mid_qual_coeffs.h */; };
+		8EC904FC17394421006E27A6 /* samplerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D717394421006E27A6 /* samplerate.h */; };
+		8EC904FD17394421006E27A6 /* sndfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904D917394421006E27A6 /* sndfile.h */; };
+		8EC904FE17394421006E27A6 /* sndfile.hh in Headers */ = {isa = PBXBuildFile; fileRef = 8EC904DA17394421006E27A6 /* sndfile.hh */; };
+		8EC904FF17394421006E27A6 /* aubioOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC904DC17394421006E27A6 /* aubioOSX.a */; };
+		DF8435291557D56800F4AB86 /* aubioOnset~.c in Sources */ = {isa = PBXBuildFile; fileRef = DF8435281557D56800F4AB86 /* aubioOnset~.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EC90465173943F0006E27A6 /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = m_pd.h; path = "../../sdk/Pd-0.42.5-extended/pd/src/m_pd.h"; sourceTree = "<group>"; };
+		8EC904B617394421006E27A6 /* aubio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aubio.h; sourceTree = "<group>"; };
+		8EC904B717394421006E27A6 /* aubio_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aubio_priv.h; sourceTree = "<group>"; };
+		8EC904B817394421006E27A6 /* beattracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beattracking.h; sourceTree = "<group>"; };
+		8EC904B917394421006E27A6 /* biquad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biquad.h; sourceTree = "<group>"; };
+		8EC904BA17394421006E27A6 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		8EC904BB17394421006E27A6 /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		8EC904BC17394421006E27A6 /* hist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hist.h; sourceTree = "<group>"; };
+		8EC904BD17394421006E27A6 /* mathutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathutils.h; sourceTree = "<group>"; };
+		8EC904BE17394421006E27A6 /* onset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onset.h; sourceTree = "<group>"; };
+		8EC904BF17394421006E27A6 /* onsetdetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onsetdetection.h; sourceTree = "<group>"; };
+		8EC904C017394421006E27A6 /* peakpick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peakpick.h; sourceTree = "<group>"; };
+		8EC904C117394421006E27A6 /* phasevoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phasevoc.h; sourceTree = "<group>"; };
+		8EC904C217394421006E27A6 /* pitchdetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchdetection.h; sourceTree = "<group>"; };
+		8EC904C317394421006E27A6 /* pitchfcomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchfcomb.h; sourceTree = "<group>"; };
+		8EC904C417394421006E27A6 /* pitchmcomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchmcomb.h; sourceTree = "<group>"; };
+		8EC904C517394421006E27A6 /* pitchschmitt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchschmitt.h; sourceTree = "<group>"; };
+		8EC904C617394421006E27A6 /* pitchyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchyin.h; sourceTree = "<group>"; };
+		8EC904C717394421006E27A6 /* pitchyinfft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchyinfft.h; sourceTree = "<group>"; };
+		8EC904C817394421006E27A6 /* resample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		8EC904C917394421006E27A6 /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
+		8EC904CA17394421006E27A6 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
+		8EC904CB17394421006E27A6 /* tempo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempo.h; sourceTree = "<group>"; };
+		8EC904CC17394421006E27A6 /* tss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tss.h; sourceTree = "<group>"; };
+		8EC904CD17394421006E27A6 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		8EC904CF17394421006E27A6 /* fftw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fftw3.h; sourceTree = "<group>"; };
+		8EC904D117394421006E27A6 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		8EC904D217394421006E27A6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8EC904D317394421006E27A6 /* fastest_coeffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastest_coeffs.h; sourceTree = "<group>"; };
+		8EC904D417394421006E27A6 /* float_cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float_cast.h; sourceTree = "<group>"; };
+		8EC904D517394421006E27A6 /* high_qual_coeffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = high_qual_coeffs.h; sourceTree = "<group>"; };
+		8EC904D617394421006E27A6 /* mid_qual_coeffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mid_qual_coeffs.h; sourceTree = "<group>"; };
+		8EC904D717394421006E27A6 /* samplerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplerate.h; sourceTree = "<group>"; };
+		8EC904D917394421006E27A6 /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sndfile.h; sourceTree = "<group>"; };
+		8EC904DA17394421006E27A6 /* sndfile.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sndfile.hh; sourceTree = "<group>"; };
+		8EC904DC17394421006E27A6 /* aubioOSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = aubioOSX.a; sourceTree = "<group>"; };
+		DF84351F1557D3A800F4AB86 /* aubioOnset~.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "aubioOnset~.pd_darwin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8435281557D56800F4AB86 /* aubioOnset~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "aubioOnset~.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF84351C1557D3A800F4AB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC904FF17394421006E27A6 /* aubioOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC90464173943B5006E27A6 /* External Frameworks and Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904B417394421006E27A6 /* include */,
+				8EC904DB17394421006E27A6 /* lib */,
+			);
+			name = "External Frameworks and Files";
+			sourceTree = "<group>";
+		};
+		8EC904B417394421006E27A6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904B517394421006E27A6 /* aubio */,
+				8EC904CE17394421006E27A6 /* fft */,
+				8EC904D017394421006E27A6 /* libsamplerate */,
+				8EC904D817394421006E27A6 /* libsndfile */,
+			);
+			name = include;
+			path = aubioFullOSXUni/include;
+			sourceTree = "<group>";
+		};
+		8EC904B517394421006E27A6 /* aubio */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904B617394421006E27A6 /* aubio.h */,
+				8EC904B717394421006E27A6 /* aubio_priv.h */,
+				8EC904B817394421006E27A6 /* beattracking.h */,
+				8EC904B917394421006E27A6 /* biquad.h */,
+				8EC904BA17394421006E27A6 /* fft.h */,
+				8EC904BB17394421006E27A6 /* filter.h */,
+				8EC904BC17394421006E27A6 /* hist.h */,
+				8EC904BD17394421006E27A6 /* mathutils.h */,
+				8EC904BE17394421006E27A6 /* onset.h */,
+				8EC904BF17394421006E27A6 /* onsetdetection.h */,
+				8EC904C017394421006E27A6 /* peakpick.h */,
+				8EC904C117394421006E27A6 /* phasevoc.h */,
+				8EC904C217394421006E27A6 /* pitchdetection.h */,
+				8EC904C317394421006E27A6 /* pitchfcomb.h */,
+				8EC904C417394421006E27A6 /* pitchmcomb.h */,
+				8EC904C517394421006E27A6 /* pitchschmitt.h */,
+				8EC904C617394421006E27A6 /* pitchyin.h */,
+				8EC904C717394421006E27A6 /* pitchyinfft.h */,
+				8EC904C817394421006E27A6 /* resample.h */,
+				8EC904C917394421006E27A6 /* sample.h */,
+				8EC904CA17394421006E27A6 /* scale.h */,
+				8EC904CB17394421006E27A6 /* tempo.h */,
+				8EC904CC17394421006E27A6 /* tss.h */,
+				8EC904CD17394421006E27A6 /* types.h */,
+			);
+			path = aubio;
+			sourceTree = "<group>";
+		};
+		8EC904CE17394421006E27A6 /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904CF17394421006E27A6 /* fftw3.h */,
+			);
+			path = fft;
+			sourceTree = "<group>";
+		};
+		8EC904D017394421006E27A6 /* libsamplerate */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904D117394421006E27A6 /* common.h */,
+				8EC904D217394421006E27A6 /* config.h */,
+				8EC904D317394421006E27A6 /* fastest_coeffs.h */,
+				8EC904D417394421006E27A6 /* float_cast.h */,
+				8EC904D517394421006E27A6 /* high_qual_coeffs.h */,
+				8EC904D617394421006E27A6 /* mid_qual_coeffs.h */,
+				8EC904D717394421006E27A6 /* samplerate.h */,
+			);
+			path = libsamplerate;
+			sourceTree = "<group>";
+		};
+		8EC904D817394421006E27A6 /* libsndfile */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904D917394421006E27A6 /* sndfile.h */,
+				8EC904DA17394421006E27A6 /* sndfile.hh */,
+			);
+			path = libsndfile;
+			sourceTree = "<group>";
+		};
+		8EC904DB17394421006E27A6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8EC904DC17394421006E27A6 /* aubioOSX.a */,
+			);
+			name = lib;
+			path = aubioFullOSXUni/lib;
+			sourceTree = "<group>";
+		};
+		DF8435141557D3A800F4AB86 = {
+			isa = PBXGroup;
+			children = (
+				8EC90464173943B5006E27A6 /* External Frameworks and Files */,
+				DF8435281557D56800F4AB86 /* aubioOnset~.c */,
+				8EC90465173943F0006E27A6 /* m_pd.h */,
+				DF8435201557D3A800F4AB86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8435201557D3A800F4AB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF84351F1557D3A800F4AB86 /* aubioOnset~.pd_darwin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF84351D1557D3A800F4AB86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC90466173943F0006E27A6 /* m_pd.h in Headers */,
+				8EC904DD17394421006E27A6 /* aubio.h in Headers */,
+				8EC904DE17394421006E27A6 /* aubio_priv.h in Headers */,
+				8EC904DF17394421006E27A6 /* beattracking.h in Headers */,
+				8EC904E017394421006E27A6 /* biquad.h in Headers */,
+				8EC904E117394421006E27A6 /* fft.h in Headers */,
+				8EC904E217394421006E27A6 /* filter.h in Headers */,
+				8EC904E317394421006E27A6 /* hist.h in Headers */,
+				8EC904E417394421006E27A6 /* mathutils.h in Headers */,
+				8EC904E517394421006E27A6 /* onset.h in Headers */,
+				8EC904E617394421006E27A6 /* onsetdetection.h in Headers */,
+				8EC904E717394421006E27A6 /* peakpick.h in Headers */,
+				8EC904E817394421006E27A6 /* phasevoc.h in Headers */,
+				8EC904E917394421006E27A6 /* pitchdetection.h in Headers */,
+				8EC904EA17394421006E27A6 /* pitchfcomb.h in Headers */,
+				8EC904EB17394421006E27A6 /* pitchmcomb.h in Headers */,
+				8EC904EC17394421006E27A6 /* pitchschmitt.h in Headers */,
+				8EC904ED17394421006E27A6 /* pitchyin.h in Headers */,
+				8EC904EE17394421006E27A6 /* pitchyinfft.h in Headers */,
+				8EC904EF17394421006E27A6 /* resample.h in Headers */,
+				8EC904F017394421006E27A6 /* sample.h in Headers */,
+				8EC904F117394421006E27A6 /* scale.h in Headers */,
+				8EC904F217394421006E27A6 /* tempo.h in Headers */,
+				8EC904F317394421006E27A6 /* tss.h in Headers */,
+				8EC904F417394421006E27A6 /* types.h in Headers */,
+				8EC904F517394421006E27A6 /* fftw3.h in Headers */,
+				8EC904F617394421006E27A6 /* common.h in Headers */,
+				8EC904F717394421006E27A6 /* config.h in Headers */,
+				8EC904F817394421006E27A6 /* fastest_coeffs.h in Headers */,
+				8EC904F917394421006E27A6 /* float_cast.h in Headers */,
+				8EC904FA17394421006E27A6 /* high_qual_coeffs.h in Headers */,
+				8EC904FB17394421006E27A6 /* mid_qual_coeffs.h in Headers */,
+				8EC904FC17394421006E27A6 /* samplerate.h in Headers */,
+				8EC904FD17394421006E27A6 /* sndfile.h in Headers */,
+				8EC904FE17394421006E27A6 /* sndfile.hh in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF84351E1557D3A800F4AB86 /* aubioOnset~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8435231557D3A800F4AB86 /* Build configuration list for PBXNativeTarget "aubioOnset~" */;
+			buildPhases = (
+				DF84351B1557D3A800F4AB86 /* Sources */,
+				DF84351C1557D3A800F4AB86 /* Frameworks */,
+				DF84351D1557D3A800F4AB86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aubioOnset~";
+			productName = aubioonsethfc;
+			productReference = DF84351F1557D3A800F4AB86 /* aubioOnset~.pd_darwin */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8435161557D3A800F4AB86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DF8435191557D3A800F4AB86 /* Build configuration list for PBXProject "aubioOnset~" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF8435141557D3A800F4AB86;
+			productRefGroup = DF8435201557D3A800F4AB86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF84351E1557D3A800F4AB86 /* aubioOnset~ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF84351B1557D3A800F4AB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8435291557D56800F4AB86 /* aubioOnset~.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF8435211557D3A800F4AB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = pd_darwin;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		DF8435221557D3A800F4AB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = pd_darwin;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				New_Setting = "";
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		DF8435241557D3A800F4AB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/aubioFullOSXUni/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "aubioOnset~";
+			};
+			name = Debug;
+		};
+		DF8435251557D3A800F4AB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/aubioFullOSXUni/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "aubioOnset~";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8435191557D3A800F4AB86 /* Build configuration list for PBXProject "aubioOnset~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8435211557D3A800F4AB86 /* Debug */,
+				DF8435221557D3A800F4AB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8435231557D3A800F4AB86 /* Build configuration list for PBXNativeTarget "aubioOnset~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8435241557D3A800F4AB86 /* Debug */,
+				DF8435251557D3A800F4AB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8435161557D3A800F4AB86 /* Project object */;
+}

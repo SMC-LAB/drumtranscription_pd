@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1365511408 source:/home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioOnset~.c
+	"m_pd.h"
+	"aubio.h"
+	"string.h"
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/aubio.h
+	"config.h"
+	"types.h"
+	"sample.h"
+	"fft.h"
+	"phasevoc.h"
+	"mathutils.h"
+	"scale.h"
+	"hist.h"
+	"onsetdetection.h"
+	"tss.h"
+	"resample.h"
+	"peakpick.h"
+	"biquad.h"
+	"filter.h"
+	"pitchdetection.h"
+	"pitchmcomb.h"
+	"pitchyin.h"
+	"pitchyinfft.h"
+	"pitchschmitt.h"
+	"pitchfcomb.h"
+	"beattracking.h"
+	"onset.h"
+	"tempo.h"
+
+1253201332 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/libsamplerate/config.h
+
+1253201332 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/types.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/sample.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/fft.h
+	<fftw3.h>
+
+1253201332 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/fft/fftw3.h
+	<stdio.h>
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/phasevoc.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/mathutils.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/scale.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/hist.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/onsetdetection.h
+
+1253201332 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/tss.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/resample.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/peakpick.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/biquad.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/filter.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/pitchdetection.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/pitchmcomb.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/pitchyin.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/pitchyinfft.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/pitchschmitt.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/pitchfcomb.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/beattracking.h
+
+1253201330 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/onset.h
+
+1253201332 /home/marius/Documents/pd/drumtranscription_pd-master/src/aubioOnset~/aubioFullOSXUni/include/aubio/tempo.h
+
