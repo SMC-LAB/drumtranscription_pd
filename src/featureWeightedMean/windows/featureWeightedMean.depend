@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1368186474 source:c:\documents and settings\mariusm\my documents\inesc\drumtranscription_pd-master\src\featureweightedmean\featureweightedmean.c
+	"m_pd.h"
+
+1359135876 c:\documents and settings\mariusm\my documents\inesc\pd-extended\pd\src\m_pd.h
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+

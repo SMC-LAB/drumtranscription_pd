@@ -53,29 +53,32 @@ static void featureWeightedMean_accum(t_featureWeightedMean *x, t_symbol *s, int
         if(x->featureLength != argc)
             error("featureWeightedMean: input length does not match current length setting. input ignored.");
         else
+        {
+            x->instances[x->currentFrame].instance = (float *)t_getbytes(x->featureLength*sizeof(float));
             for(i=0; i<x->featureLength; i++)
                 x->instances[x->currentFrame].instance[i] = atom_getfloat(argv+i);
         
-        x->currentFrame++;
+            x->currentFrame++;
         
-        if (x->currentFrame==x->numFrames) 
-        {
-            for(i=0; i<(x->featureLength-1); i++)
+            if (x->currentFrame==x->numFrames) 
             {
-                sum = 0; 
-                w = 0;
-                for(j=0; j<x->currentFrame; j++) 
+                for(i=0; i<(x->featureLength-1); i++)
                 {
-                    sum = sum + x->instances[j].instance[i] * x->instances[j].instance[x->featureLength-1];
-                    w = w + x->instances[j].instance[x->featureLength-1];
+                    sum = 0; 
+                    w = 0;
+                    for(j=0; j<x->currentFrame; j++) 
+                    {
+                        sum = sum + x->instances[j].instance[i] * x->instances[j].instance[x->featureLength-1];
+                        w = w + x->instances[j].instance[x->featureLength-1];
+                    }
+                    sum = sum / w;
+                    SETFLOAT(x->x_listOut+i, sum); 
                 }
-                sum = sum / w;
-                SETFLOAT(x->x_listOut+i, sum); 
+                
+                outlet_list(x->featureList, 0, x->featureLength-1, x->x_listOut);
+                
+                x->currentFrame = (x->currentFrame==x->numFrames)?0:x->currentFrame;
             }
-            
-            outlet_list(x->featureList, 0, x->featureLength-1, x->x_listOut);
-            
-            x->currentFrame = (x->currentFrame==x->numFrames)?0:x->currentFrame;
         }
     }
 }

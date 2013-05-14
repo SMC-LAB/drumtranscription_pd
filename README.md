@@ -47,8 +47,11 @@ The research behind this system is documented in an ICASSP 2013 paper:
 http://www.icassp2013.com/Papers/ViewPapers.asp?PaperNum=4116
 
 The algorithm comprises three different stages: onset detection, feature computation and classification. We implemented patches several versions for each of the stages.
+
 - onset detection - you can use a faster onset detector or the slower one with better resolution
+
 - you can use the faster feature computation which takes just the first 56 ms, or you can use the "best" patch which overlaps 10 frames summing 136 ms of analysis
+
 - you can choose between a trained KNN classifier or a sequential K-means classifier
 
 In the src directory you can find the C source code for the Pure Data externals. 
@@ -67,20 +70,26 @@ RESEARCH REPRODUCIBILITY
 
 Part of the research is reproducible. We are using a drum loops generated with samples from Groove Monkee library, which can't be made available because of license restrictions. However we made available the overlapping sounds database.
 
-1. First you need to download the overlapping sounds database: 
+1. First you need to download the overlapping sounds database:  
 http://www.mediafire.com/download.php?q8nl199bnz7g68n
-OR
+OR 
 https://www.dropbox.com/s/6ykurx3lr9s0lj5/overlapping_sounds_db.zip
 
 2. Provided that you have Pure Data extended installed and you downloaded the binary for drum transcription, you can use the test_rt_batch.pd from command line to transcribe each audio file from the database. 
+
 a) You need to copy the .wav files to be transcribed in the `audio_to_transcribe` folder, or modify this path in the batch_file.pd
+
 b) You would need to call Pure Data from command line and use the batch option:
 /Applications/Pd-extended.app/Contents/Resources/bin/pdextended -batch /path-to-drum-transcription/test_rt_batch.pd
+
 Modify the /path-to-drum-transcription/ to the actual path where you have downloaded the software.
+
 c) The transcription will generate text files with the drum onset times, for each of the kick, snare or hi-hat. 
 
 3. In the `evaluation` folder you find the Matlab scripts to compare the transcription with the midi ground truth.
+
 a) test_transcription.m [test_transcription(midiDir,audioDir, window_size)] takes as input the midi folder and the audio folder, as well as the desired maximum delay from the actual onset (window_size). This script will give you the F-measure, precision and recall across all classes. 
+
 b) test_delay.m [test_delay(midiDir,audioDir, window_size)] will plot the F_measure across the overlapping intervals, so you would see how the system performs depending of the overlapping rate between two consecutive events.
 
 =============================

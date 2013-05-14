@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1352913650 source:c:\documents and settings\mariusm\my documents\inesc\drumtranscription_pd-master\src\aubioonset\aubioonset_win\libaubioext-2.dll.cpp
+
+1352913653 source:c:\documents and settings\mariusm\my documents\inesc\drumtranscription_pd-master\src\aubioonset\aubioonset_win\libfftw3-3.dll.cpp
+
+1352913654 source:c:\documents and settings\mariusm\my documents\inesc\drumtranscription_pd-master\src\aubioonset\aubioonset_win\libsamplerate-0.dll.cpp
+
+1352913655 source:c:\documents and settings\mariusm\my documents\inesc\drumtranscription_pd-master\src\aubioonset\aubioonset_win\libsndfile-1.dll.cpp
+

@@ -52,6 +52,8 @@ static void featureMean_accum(t_featureMean *x, t_symbol *s, int argc, t_atom *a
         if(x->featureLength != argc)
             error("featureMean: input length does not match current length setting. input ignored.");
         else
+        {
+            x->instances[x->currentFrame].instance = (float *)t_getbytes(x->featureLength*sizeof(float));
             for(i=0; i<x->featureLength; i++)
                 x->instances[x->currentFrame].instance[i] = atom_getfloat(argv+i);
         
@@ -73,6 +75,7 @@ static void featureMean_accum(t_featureMean *x, t_symbol *s, int argc, t_atom *a
             outlet_list(x->featureList, 0, x->featureLength, x->x_listOut);
             
             x->currentFrame = (x->currentFrame==x->numFrames)?0:x->currentFrame;
+        }
         }
     }
 

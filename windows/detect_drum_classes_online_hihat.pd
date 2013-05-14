@@ -1,0 +1,10 @@
+#N canvas 392 141 205 247 10;
+#X obj 41 171 outlet;
+#X obj 41 145 select 1;
+#X obj 41 -24 inlet;
+#X obj 41 76 onlineClusterKNN;
+#X obj 63 41 r hKNN;
+#X connect 1 1 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;

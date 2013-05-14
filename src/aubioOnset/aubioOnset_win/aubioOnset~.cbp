@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aubioOnset~" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\aubioOnset~.dll" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="..\..\..\..\pd-extended\pd\src" />
+					<Add directory="aubioFullWinUni\include\aubio" />
+					<Add directory="aubioFullWinUni\include\fft" />
+					<Add directory="aubioFullWinUni\include\libsamplerate" />
+					<Add directory="aubioFullWinUni\include\libsndfile" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Program Files\pd\bin\pd.lib" />
+					<Add library="aubioFullWinUni\lib\libaubio-2.dll" />
+					<Add library="aubioFullWinUni\lib\libaubioext-2.dll" />
+					<Add library="aubioFullWinUni\lib\libfftw3-3.dll" />
+					<Add library="aubioFullWinUni\lib\libsamplerate-0.dll" />
+					<Add library="aubioFullWinUni\lib\libsndfile-1.dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\aubioOnset~" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="..\..\..\..\pd-extended\pd\src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\Program Files\pd\bin\pd.lib" />
+					<Add library="aubioFullWinUni\lib\libaubio-2.dll" />
+					<Add library="aubioFullWinUni\lib\libaubioext-2.dll" />
+					<Add library="aubioFullWinUni\lib\libfftw3-3.dll" />
+					<Add library="aubioFullWinUni\lib\libsamplerate-0.dll" />
+					<Add library="aubioFullWinUni\lib\libsndfile-1.dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="..\aubioOnset~.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

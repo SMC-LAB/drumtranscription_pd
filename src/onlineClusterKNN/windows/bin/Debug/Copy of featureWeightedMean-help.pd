@@ -1,0 +1,15 @@
+#N canvas 176 0 571 536 10;
+#X msg 44 67 1 2 3;
+#X obj 75 160 print output;
+#X msg 98 36 print;
+#X msg 109 69 7 8 9;
+#X msg 38 45 1 1 1;
+#X msg 162 53 9 9 9;
+#X msg 15 97 random 0;
+#X obj 73 127 onlineClusterKNN 2;
+#X connect 0 0 7 0;
+#X connect 3 0 7 0;
+#X connect 4 0 7 0;
+#X connect 5 0 7 0;
+#X connect 6 0 7 0;
+#X connect 7 0 1 0;

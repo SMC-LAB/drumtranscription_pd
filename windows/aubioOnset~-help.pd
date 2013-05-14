@@ -1,0 +1,2 @@
+#N canvas 1204 67 571 579 10;
+#X obj 75 115 aubioOnset~ hfc 512 128 -70 0.5;
