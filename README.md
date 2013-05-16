@@ -75,7 +75,6 @@ Part of the research is reproducible. We are using a drum loops generated with s
 - the audio directory to transcribe: http://archive.org/details/drum_overlapping_sounds_db_audio
 
 - the midi directory to test the transcription: http://archive.org/details/drum_overlapping_sounds_db_audio_201305
-
   
 MIRRORS:
 http://www.mediafire.com/download.php?q8nl199bnz7g68n
