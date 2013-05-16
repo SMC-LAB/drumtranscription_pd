@@ -70,7 +70,14 @@ RESEARCH REPRODUCIBILITY
 
 Part of the research is reproducible. We are using a drum loops generated with samples from Groove Monkee library, which can't be made available because of license restrictions. However we made available the overlapping sounds database.
 
-1. First you need to download the overlapping sounds database:  
+1. First you need to download the overlapping sounds database:
+
+- the audio directory to transcribe: http://archive.org/details/drum_overlapping_sounds_db_audio
+
+- the midi directory to test the transcription: http://archive.org/details/drum_overlapping_sounds_db_audio_201305
+
+  
+MIRRORS:
 http://www.mediafire.com/download.php?q8nl199bnz7g68n
 OR 
 https://www.dropbox.com/s/6ykurx3lr9s0lj5/overlapping_sounds_db.zip
