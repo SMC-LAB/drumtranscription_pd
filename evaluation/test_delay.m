@@ -128,64 +128,64 @@ figure
 ylim([0 1])
 h=bar(delays,Fd_b);
 axis([-100 130 0 1]);set(h(1),'facecolor',[0 0 0]);
-%xlabel('delay times kick')
-%ylabel('F measure kick')
+xlabel('delay times kick')
+ylabel('F measure kick')
 %subplot(3,3,2)
 figure
 ylim([0 1])
 h=bar(delays,Fd_s);
 axis([-100 130 0 1]);set(h(1),'facecolor',[0 0 0]);
-%xlabel('delay times snare')
-%ylabel('F measure snare')
+xlabel('delay times snare')
+ylabel('F measure snare')
 %subplot(3,3,3)
 figure
 ylim([0 1])
 h=bar(delays,Fd_h);
 axis([-100 130 0 1]);set(h(1),'facecolor',[0 0 0]);
-%xlabel('delay times hihat')
-%ylabel('F measure hihat')
+xlabel('delay times hihat')
+ylabel('F measure hihat')
 %subplot(3,3,4)
 figure
 ylim([0 1])
 h = bar(delays,[f_b_b'.*precisiond_b' f_b_s'.*precisiond_b' f_b_h'.*precisiond_b'], 'stacked');
 axis([-100 130 0 1]);legend('BD', 'SD', 'HH');set(h(1),'facecolor',[0 0 0]);set(h(2),'facecolor',[0.6 0.6 0.6]);set(h(3),'facecolor',[0.91 0.91 0.91]);
-%xlabel('delay times kick')
-%ylabel('1-precision kick')
+xlabel('delay times kick')
+ylabel('1-precision kick')
 %subplot(3,3,5)
 figure
 ylim([0 1])
 h = bar(delays,[f_s_b'.*precisiond_s' f_s_s'.*precisiond_s' f_s_h'.*precisiond_s'], 'stacked');
 axis([-100 130 0 1]);legend('BD', 'SD', 'HH');set(h(1),'facecolor',[0 0 0]);set(h(2),'facecolor',[0.6 0.6 0.6]);set(h(3),'facecolor',[0.91 0.91 0.91]);
-%xlabel('delay times snare')
-%ylabel('1-precision snare')
+xlabel('delay times snare')
+ylabel('1-precision snare')
 %subplot(3,3,6)
 figure
 ylim([0 1])
 h = bar(delays,[f_h_b'.*precisiond_h' f_h_s'.*precisiond_h' f_h_h'.*precisiond_h'], 'stacked');
 axis([-100 130 0 1]);legend('BD', 'SD', 'HH');set(h(1),'facecolor',[0 0 0]);set(h(2),'facecolor',[0.6 0.6 0.6]);set(h(3),'facecolor',[0.91 0.91 0.91]);
-%xlabel('delay times hihat')
-%ylabel('1-precision hihat')
+xlabel('delay times hihat')
+ylabel('1-precision hihat')
 %subplot(3,3,7)
 figure
 ylim([0 1])
 h=bar(delays,recalld_b);
 axis([-100 130 0 1]);set(h(1),'facecolor',[0 0 0]);
-%xlabel('delay times kick')
-%ylabel('recall kick')
+xlabel('delay times kick')
+ylabel('recall kick')
 %subplot(3,3,8)
 figure
 ylim([0 1])
 h=bar(delays,recalld_s);
 axis([-100 130 0 1]);set(h(1),'facecolor',[0 0 0]);
-%xlabel('delay times snare')
-%ylabel('recall snare')
+xlabel('delay times snare')
+ylabel('recall snare')
 %subplot(3,3,9)
 figure
 ylim([0 1])
 h=bar(delays,recalld_h);
 axis([-100 130 0 1]);set(h(1),'facecolor',[0 0 0]);
-%xlabel('delay times hihat')
-%ylabel('recall hihat')
+xlabel('delay times hihat')
+ylabel('recall hihat')
 
 
 
