@@ -106,9 +106,9 @@ idx3 = [false;diff(m_hihat)<(9*(10^-3))];
 m_hihat(idx3) = [];
 
 %load transcription
-bass = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_bassonf7.txt'), ' ')';
-snare = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_snareonf7.txt'), ' ')';
-hihat = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_hihatonf7.txt'), ' ')';
+bass = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_bassnf.txt'), ' ')';
+snare = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_snarenf.txt'), ' ')';
+hihat = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_hihatnf.txt'), ' ')';
 %onset = importdata(strcat(audioDir,strrep(audiofile, '.wav', ''),'_onset.txt'), ' ');
 idx1 = [false;diff(bass)<(9*(10^-3))]; 
 bass(idx1) = [];
