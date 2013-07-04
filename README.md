@@ -94,9 +94,11 @@ c) The transcription will generate text files with the drum onset times, for eac
 
 3 In the `evaluation` folder you find the Matlab scripts to compare the transcription with the midi ground truth.
 
-a) test_transcription.m [test_transcription(midiDir,audioDir, window_size)] takes as input the midi folder and the audio folder, as well as the desired maximum delay from the actual onset (window_size). This script will give you the F-measure, precision and recall across all classes. 
+a) first you need to download this version of MIDI toolbox and put it in the Matlab path: http://www.ee.columbia.edu/~csmit/matlab_midi.html
 
-b) test_delay.m [test_delay(midiDir,audioDir, window_size)] will plot the F_measure across the overlapping intervals, so you would see how the system performs depending of the overlapping rate between two consecutive events.
+b) test_transcription.m [test_transcription(midiDir,audioDir, window_size)] takes as input the midi folder and the audio folder, as well as the desired maximum delay from the actual onset (window_size). This script will give you the F-measure, precision and recall across all classes. 
+
+c) test_delay.m [test_delay(midiDir,audioDir, window_size)] will plot the F_measure across the overlapping intervals, so you would see how the system performs depending of the overlapping rate between two consecutive events.
 
 =============================
 PURE DATA DEVELOPERS
